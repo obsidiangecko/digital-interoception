@@ -8,5 +8,3 @@ Adapted for atlas, and featuring the following information:
 - time in 12h format
 - date
 - battery level
-
-![img](https://github.com/obsidiangecko/digital-interoception/screenshots/basic-mkii.png)
