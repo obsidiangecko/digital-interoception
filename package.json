@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "73709738-2d9d-4947-ac63-9858dcae7ccb",
+    "appType": "clockface",
+    "appDisplayName": "Basic MkII",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Basic MkII"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

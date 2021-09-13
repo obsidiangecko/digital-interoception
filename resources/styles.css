@@ -1,0 +1,111 @@
+.background {
+  viewport-fill: black;
+}
+
+#hourLabel {
+  font-size: 180;
+  font-family: Raiju-Bold;
+  text-length: 8;
+  text-anchor: end;
+  x: 170;
+  y: 207;
+  fill: darkgrey;
+}
+
+#minuteLabel {
+  font-size: 110;
+  font-family: Raiju-Bold;
+  text-length: 8;
+  text-anchor: start;
+  x: 165;
+  y: 160;
+  fill: grey;
+}
+
+#amPmLabel {
+  font-size: 30;
+  text-length: 8;
+  text-anchor: start;
+  x: 285;
+  y: 160;
+  fill: grey;
+}
+
+#dayLabel {
+  font-size: 30;
+  font-family: Raiju-Regular;
+  text-length: 8;
+  text-anchor: start;
+  x: 170;
+  y: 195;
+  fill: lightskyblue;
+}
+
+#monthLabel {
+  font-size: 30;
+  font-family: Raiju-Light;
+  text-length: 8;
+  text-anchor: start;
+  x: 170;
+  y: 220;
+  fill: grey;
+}
+
+#dateLabel {
+  font-size: 60;
+  font-family: Seville-Book;
+  text-length: 8;
+  text-anchor: start;
+  x: 230;
+  y: 217;
+  fill: lightskyblue;
+}
+
+#heartrateLabel {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 3;
+  text-anchor: start;
+  x: 20%;
+  y: 280;
+  fill: lightsteelblue;
+}
+
+#batteryLabel {
+  font-size: 15;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: start;
+  x: 5%;
+  y: 10%;
+  fill: lightsteelblue;
+}
+
+
+#stepsLabel {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 12;
+  text-anchor: start;
+  x: 150;
+  y: 330;
+  fill: lightsteelblue;
+}
+
+#activeMinutesLabel {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 12;
+  text-anchor: start;
+  x: 280;
+  y: 280;
+  fill: lightsteelblue;
+}
+
+.icons {
+  fill: cornflowerblue;
+}
+
+.background {
+  fill: steelblue;
+}

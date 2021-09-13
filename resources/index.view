@@ -1,0 +1,16 @@
+<svg class="background">
+  <image href="background.png" class="background"/>
+  <text id="hourLabel"/>
+  <text id="minuteLabel"/>
+  <text id="dateLabel" />
+  <text id="dayLabel"/>
+  <text id="monthLabel"/>
+  <text id="amPmLabel"/>
+  <text id="heartrateLabel" />
+  <text id="batteryLabel" />
+  <text id="stepsLabel" />
+  <text id="activeMinutesLabel" />
+  <image href="icons/steps_36px.png" x="110" y ="305" height="30" width="30" class="icons"/>
+  <image href="icons/heart_rate_36px.png" x="25" y="252" height="30" width="30" class="icons"/>
+  <image href="icons/azm_36px.png" x="243" y="252" height="30" width="30" class="icons"/>
+</svg>
