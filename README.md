@@ -9,4 +9,4 @@ Adapted for atlas, and featuring the following information:
 - date
 - battery level
 
-![img](screenshots/basic-mkii.png)
+![img](https://github.com/obsidiangecko/digital-interoception/screenshots/basic-mkii.png)
