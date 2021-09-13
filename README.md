@@ -9,4 +9,4 @@ Adapted for atlas, and featuring the following information:
 - date
 - battery level
 
-![Fitbit Versa 3 - Basic MkII Clock Face](screenshots/basic-mkii.png "Basic MkII Clock Face")
+![img](screenshots/basic-mkii.png)
