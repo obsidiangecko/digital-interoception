@@ -22,7 +22,7 @@ const heartrateHandle = document.getElementById("heartrateLabel");
 const amPmHandle = document.getElementById("amPmLabel");
 
 //create day and month arrays
-const dayNames = [`MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`];
+const dayNames = [`SUN`, `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`];
 const monthNames = [`JAN`,`FEB`, `MAR`, `APR`, `MAY`, `JUN`, `JUL`, `AUG`,`SEP`,`OCT`,`NOV`,`DEC`]
 
 // The following block reads the heart rate from the watch
@@ -41,7 +41,7 @@ clock.ontick = (evt) => {
   let mins = now.getMinutes(); // separate the actual minute from the instant "now"
   let date = now.getDate(); // seperate date from "now"
   let day = now.getDay(); // seperate day of the week from the instant "now"
-  const dayName = dayNames[day-1]; // translate day number to day name by referenceing dayNames array
+  const dayName = dayNames[day]; // translate day number to day name by referenceing dayNames array
   let month = now.getMonth(); // seperate month from the instant "now"
   const monthName = monthNames[month-1]; // translate month number to month name by referenceing monthNames array
   const amPm; // to hold the AM or PM text
