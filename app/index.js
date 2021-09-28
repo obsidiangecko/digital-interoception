@@ -41,9 +41,9 @@ clock.ontick = (evt) => {
   let mins = now.getMinutes(); // separate the actual minute from the instant "now"
   let date = now.getDate(); // seperate date from "now"
   let day = now.getDay(); // seperate day of the week from the instant "now"
-  const dayName = dayNames[day]; // translate day number to day name by referenceing dayNames array
+  const dayName = dayNames[day]; // translate day number to day name by referencing dayNames array
   let month = now.getMonth(); // seperate month from the instant "now"
-  const monthName = monthNames[month-1]; // translate month number to month name by referenceing monthNames array
+  const monthName = monthNames[month]; // translate month number to month name by referencing monthNames array
   const amPm; // to hold the AM or PM text
   if (hours > 12) {
       amPm = `PM`;
